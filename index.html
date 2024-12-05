@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Language Learning App</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <link rel="stylesheet" href="face.css">
+</head>
+<body>
+<div id="app">
+  <div id="card">
+    <p id="word">always</p>
+  </div>
+  <p id="progress">4/10</p>
+  <input type="text" id="translation" placeholder="Введіть переклад">
+  <div id="stats">
+    <p id="correct">Вірно: 2</p>
+    <p id="incorrect">Невірно: 1</p>
+  </div>
+  <button id="next">Далі</button>
+</div>
+
+<!-- Модальне вікно -->
+<div id="modal" style="display: none;">
+  <p id="result"></p>
+  <button id="restart">Почати знову</button>
+</div>
+<script src="js.js"></script>
+</body>
+</html>
